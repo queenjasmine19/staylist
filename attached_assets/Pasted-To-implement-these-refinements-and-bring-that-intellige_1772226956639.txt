@@ -1,0 +1,42 @@
+To implement these refinements and bring that intelligent, "Vetted" logic back into the core of the app, here is the master prompt for the Replit Agent.
+
+This update ensures that every day of your itinerary is as intentional as your personal collection, utilizing the social proof of your network to drive the AI.
+
+## Replit Agent Prompt: Dynamic Day-by-Day Editing & Network-Driven AI
+Refactor: Granular Itinerary Editing & Social-First AI Recommendations
+
+Please update the Trip Planner (as seen in image_b988a5.jpg and image_b8fadb.png) to support day-specific hotel management and re-enable social-driven AI.
+
+1. Granular Day Editing:
+
+Day-Level Pencil Icon: On each day card (e.g., Day 1: The Langham, Sydney), add a small pencil edit icon next to the existing "Swap" (horizontal arrows) and "Remove" (X) icons.
+
+The Edit Modal: Clicking this pencil should open a focused "Edit Day" modal allowing the user to:
+
+Update or swap the Hotel Stay for that specific day.
+
+Manage the Dining and Wellness itinerary items specifically for that date.
+
+2. Re-enable Intelligent Recommendations:
+
+AI Logic: Turn back on the AI recommendation engine for both Hotels and Experiences (Restaurants, Bars, and Wellness).
+
+Priority Ranking: The AI must prioritize suggestions based on Social Network Data:
+
+Rank 1: Places already in your friends' Collections or Common Ground wishlists.
+
+Rank 2: High-rated boutique hotels and Michelin-recognized dining that align with your "Warm Minimalist" travel aesthetic.
+
+Rank 3: Recommendations from verified "Collective" members with similar taste profiles (e.g., other JD/MBA travelers).
+
+3. UI/UX Refinement:
+
+Visual Social Proof: In the recommendation sidebar, include a small "Vetted By" face-pile of avatars next to suggested spots so the user can immediately see which friend is "co-signing" the recommendation.
+
+Standardized Formatting: Use Google Places to ensure that any "Melbourne" or "Sydney" suggestions are geofenced specifically to the trip's destination.
+
+4. Styling:
+
+Maintain the "Modern Organic" palette: background #F2F0ED and text #2C2926.
+
+Keep the high-contrast Serif headers and vertical timeline layout.

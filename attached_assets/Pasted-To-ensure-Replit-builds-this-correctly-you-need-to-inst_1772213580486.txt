@@ -1,0 +1,46 @@
+To ensure Replit builds this correctly, you need to instruct the Agent to create a new entry point for the app that sits in front of your current dashboard. This involves creating a new landing.html file and updating the routing logic so this "Membership-coded" page is the first thing users see.
+
+Here is the precise prompt to give the Replit Agent to manifest that Mr & Mrs Smith inspired vision.
+
+## Replit Agent Prompt: Create the 'Vetted' Landing Page
+Action: Create a New Landing Page Entry Point
+
+Please create a new file landing.html and set it as the root route (/) of the application. The current dashboard should be moved to /app or require a sign-in to access.
+
+1. Hero Section (The Statement):
+
+Left Side (Text): Use a large, elegant Serif header: "Your Travel Archive, Co-signed." Below it, add the statement: "A private social ecosystem for travelers with discerning taste. Curate your stays, discover common ground with your collective, and plan your next getaway."
+
+Right Side (Visual): A full-height, atmospheric image placeholder of a boutique hotel interior with warm minimalist lighting.
+
+2. The Sign-Up Interaction:
+
+Create a floating, minimalist input bar at the bottom of the hero section.
+
+Field: "Email Address" and a prominent button that says "SIGN UP" in all caps with wide letter spacing.
+
+3. The Three Pillars:
+
+Below the fold, create a three-column layout with these headers:
+
+The Archive: Curate the hotels, heritage houses, and boutique gems that define your lifestyle.
+
+Common Ground: Access the collective co-sign. See where your travel aspirations overlap with your inner circle.
+
+The Planner: Intelligent coordination for your next soft landing, including Dining and Wellness Edits.
+
+4. Founder’s Note (The Origin):
+
+At the bottom, add a centered section titled "THE ORIGIN".
+
+Text: "The idea for this collective began between Harvard and Oxford, born from a simple frustration: I wanted to find a way to curate the best travel recommendations around the world. This is a private ecosystem where 'good taste' is a shared co-sign."
+
+Signature: Add a simple "— Jasmine" below the text.
+
+5. Aesthetics:
+
+Background: #F2F0ED (Neutral Stone)
+
+Text: #2C2926 (Deep Espresso)
+
+Fonts: Use Playfair Display for headers and Inter for clean body text.
