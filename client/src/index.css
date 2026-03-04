@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /*
+    Room Service - Modern Organic Palette
+    Background (Greige): #F2F0ED -> 30 9% 94%
+    Primary (Espresso): #2C2926 -> 30 7% 16%
+    Subtext (Pebble): #78726B -> 32 6% 45%
+    Card Border: #D1CDC7 -> 36 10% 80%
+    Pearls (Champagne): #C2B4A3 -> 33 20% 70%
+  */
+
+  --background: 30 9% 94%;
+  --foreground: 30 7% 16%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 30 7% 16%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 30 7% 16%;
+
+  --primary: 30 7% 16%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 36 10% 80%;
+  --secondary-foreground: 30 7% 16%;
+
+  --muted: 30 6% 90%;
+  --muted-foreground: 32 6% 45%;
+
+  --accent: 30 7% 16%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 40% 50%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 36 10% 80%;
+  --input: 36 10% 80%;
+  --ring: 30 7% 16%;
+
+  --radius: 0.75rem;
+
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+@layer base {
+  *, a, button, [role="button"], input[type="submit"],
+  label[for], select, summary, .cursor-pointer {
+    cursor: default !important;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background: hsl(30 7% 16% / 0.12);
+    color: hsl(30 7% 10%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    @apply font-medium tracking-tight;
+  }
+
+  input[type="text"], input[type="email"], input[type="url"],
+  input[type="search"], input[type="number"], input[type="password"],
+  textarea {
+    cursor: text !important;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
